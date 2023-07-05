@@ -1,0 +1,110 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/* Flex box clearing above */
+
+body {
+  background-color: rgb(215 215 215);
+  font-family: "Gill Sans", sans-serif;
+}
+
+header {
+  background-image: url("background.jpg");
+  /*height: 165px;*/
+  /* height: 5%; */
+  padding: 0px;
+  margin-bottom: 10%;
+  border: 0px;
+  left: 0px;
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+/*header > img {
+  display: flex;
+  justify-content: center;
+  clear: both;
+} */
+
+.headerlogo {
+  /* margin-top: 50px; */
+  position: relative;
+  top: 50px;
+  height: 160px;
+}
+
+main {
+  align-content: start;
+  display: flex;
+}
+
+section {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+main > section > div {
+  background-color: white;
+  padding: 15px 15px 60px 15px;
+  float: left;
+  width: 95%;
+}
+
+.fooseball {
+  width: 100%;
+}
+
+span {
+  border-top: 2px dashed black;
+  border-bottom: 2px solid black;
+  /*text-decoration: dashed overline underline;
+  margin: 2px 0px 2px 0px;*/
+}
+
+aside {
+  /* top: 0px; */
+  /* align-items: flex-start; */
+  background-color: white;
+  float: left;
+  /* width: 30%; */
+  /* margin: 10px; */
+  padding: 10px;
+  width: 240px;
+  height: 675px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+footer {
+  text-align: center;
+  height: 10%;
+  clear: both;
+  margin: 3% 0% 3% 0%;
+  border: 5px;
+}

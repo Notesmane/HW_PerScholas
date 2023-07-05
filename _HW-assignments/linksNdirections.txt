@@ -1,0 +1,52 @@
+
+gitinit: when you want to initialize a folder to upload to gethub, then goto github.com and create a new repository with the folder you want to upload, then copy the 3 lines of code and paste them into the terminal
+gitadd: git add.
+gitcommit: git commit -m "completed x assignment"
+gitpush: git push actually pushes it to the cloud
+
+
+Assigned: June 27th - 
+Due: July 4th
+Comments: in precourse part 2: skip everything that says arrays and objects
+Link: https://perscholas.instructure.com/courses/1513/assignments/310504
+SUBMITTED: YES
+
+
+Assigned: week 4 day 2 and day 3 HW
+Due: july 11th
+Comments: do it in VS code. Create a new repo and then push it to github
+1. Create a new folder (total_recall)
+2. Create a file for each. (w4d4.js)
+3. Create a remote repo and push it to github
+4. Then submit each on canvas
+Link: https://perscholas.instructure.com/courses/1513/pages/week-4-day-2-lecture-slash-lab-slash-hw-js-total-recall?module_item_id=965253
+Link: https://perscholas.instructure.com/courses/1513/pages/week-4-day-3-lecture-arrays-loops-and-conditional-reps?module_item_id=965261
+SUBMITTED: NO
+
+
+Assigned:
+Due:
+Comments:
+Link:
+SUBMITTED:
+
+
+Assigned:
+Due:
+Comments:
+Link:
+SUBMITTED:
+
+
+Assigned:
+Due:
+Comments:
+Link:
+SUBMITTED:
+
+
+Assigned:
+Due:
+Comments:
+Link:
+SUBMITTED:
