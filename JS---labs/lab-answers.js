@@ -166,13 +166,13 @@
 
 
 //TODO =============================================  Exercise 7 (Where is Waldo) - 
-// // Remove Eggbert (hint look at the slice/splice methods).
-// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
-// console.table(whereIsWaldo);
-// // whereIsWaldo.slice(1, 1);
-// console.log(whereIsWaldo.slice(1, 1));
+// Remove Eggbert (hint look at the slice/splice methods).
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
+console.table(whereIsWaldo);
+// whereIsWaldo.slice(1, 1);
+console.log(whereIsWaldo.slice(1, 1));
 
-// // Change "Neff" to "No One".
+// Change "Neff" to "No One".
 
-// // Access and console.log "Waldo".
-// console.log(whereIsWaldo[3[1[1]]]);
+// Access and console.log "Waldo".
+console.log(whereIsWaldo[3[1[1]]]);
