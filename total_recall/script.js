@@ -413,25 +413,27 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 console.log("=============================================")
 // F. getMultipleLengths
 
-function getMultipleLengths(arry3); {
-    return {
-        arry3: arry3[0].length,
-        arry3: arry3[1].length,
-        arry3: arry3[2].length,
-        arry3: arry3[3].length,
-        arry3: arry3[4].length 
-       }
-}
+// function getMultipleLengths(arry3); {
+//     return {
+//         arry3: arry3[0].length,
+//         arry3: arry3[1].length,
+//         arry3: arry3[2].length,
+//         arry3: arry3[3].length,
+//         arry3: arry3[4].length 
+//        }
+// }
 
-const arry3 = getMultipleLengths()
+function getMultipleLengths(strs) {
+    let lengths = [];
+    for (let m = 0; m < strs.length; m++) {
+        lengths.push(strs[m].length);
+    }
+    return lengths;
+}
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 
 console.log("=============================================")
-
 // G. maxOfThree
-
-fdlgjldfkgjl 
-
 
 
 console.log("=============================================")
