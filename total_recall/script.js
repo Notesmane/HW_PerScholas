@@ -482,3 +482,58 @@ function printLongestWord(arry9) {
 }
 
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+
+//! Objects
+
+
+console.log("=============================================");
+// A. Make a user object
+const user = {
+    name: 'Ronnie',
+    email: 'ronpowell156@gmail.com',
+    age: 22,
+    purchased: []
+}
+console.log(user);
+
+
+console.log("=============================================");
+// B. Update the user
+user.email = 'notesmane@gmail.com'
+user.age++
+console.log(user);
+
+
+console.log("=============================================");
+// C. Adding keys and values
+user.location = 'Tokyo'
+console.log(user);
+
+
+console.log("=============================================");
+// D. Shopoholic!
+user.purchased.push('carbohydrates');
+user.purchased.push('peace of mind');
+user.purchased.push('Merino jodhpurs');
+
+console.log(user.purchased[2]);
+
+
+console.log("=============================================");
+// E. Object-within-object
+user.friend = {
+    name: 'Adam',
+    age: 25,
+    location: 'Miami',
+    purchased: []
+}
+console.log(user.friend.age);
+console.log(user.friend.location);
+user.friend.age = 55
+user.friend.purchased.push('The One Ring', 'A latte');
+console.log(user.friend.purchased[1]);
+
+
+console.log("=============================================");
+// 
