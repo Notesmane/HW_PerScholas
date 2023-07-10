@@ -435,9 +435,6 @@ console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 console.log("=============================================")
 // G. maxOfThree
 
-
-
-
 function maxOfThree(num7, num8, num9) {
     if (num7 >= num8 && num9) {
         return num7;
@@ -456,3 +453,32 @@ console.log(maxOfThree(7, 6, 4));
 console.log("=============================================");
 
 // H. printLongestWord
+
+// function printLongestWord(arry9) {
+//     let lengthy = [];
+//     for (let p = 0; p < arry9.length; p++) {
+//         lengthy.push(arry9[p].length); {
+//             if (lengthy[p] > lengthy[p]++) {
+//                 return lengthy[p]; 
+//             } else {
+//                 if ()
+//             }
+//         }
+//     }
+//     return lengthy;
+// }
+
+function printLongestWord(arry9) {
+    let lengthy = [0].length;
+    let ans1 = arry9[0];
+    for (let p = 1; p < arry9.length; p++) {
+        let maxim = arry9[p].length;
+        if (maxim > lengthy) {
+            ans1 = arry9[p];
+            lengthy = maxim;
+        }
+    }
+        return ans1;
+}
+
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
