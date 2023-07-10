@@ -436,6 +436,23 @@ console.log("=============================================")
 // G. maxOfThree
 
 
-console.log("=============================================")
+
+
+function maxOfThree(num7, num8, num9) {
+    if (num7 >= num8 && num9) {
+        return num7;
+    } else {
+        if(num8 >= num7 && num9) {
+            return num8;
+        } else {
+            if (num9 >= num7 && num8) {
+                return num9;
+            }
+        }
+    }
+}
+console.log(maxOfThree(7, 6, 4));
+
+console.log("=============================================");
 
 // H. printLongestWord
