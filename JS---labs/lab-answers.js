@@ -176,3 +176,9 @@ console.log(whereIsWaldo.slice(1, 1));
 
 // Access and console.log "Waldo".
 console.log(whereIsWaldo[3[1[1]]]);
+
+
+
+//TODO =============================================  Exercise 8 (Excited Kitten) -
+
+//TODO =============================================  Exercise 9 (Find the Median) - 
