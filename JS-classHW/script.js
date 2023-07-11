@@ -46,11 +46,13 @@ console.log(mimo)
 
 class Pirate {
     constructor(name, boatName, origin) {
+        // these are propterties
         this.name = name;
         this.boatName = boatName;
         this.origin = origin;
         this.twisted = false;
     }
+    // these are methods
     drinking() {
         this.twisted = true;
         console.log('Mr. Pirate is Drunk!');
